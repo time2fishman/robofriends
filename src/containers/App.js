@@ -5,7 +5,7 @@ import Scroll from '../components/Scroll';
 import ErrorBoundry from '../components/ErrorBoundry';
 import './App.css';
 
-const App = () => {
+const App = (props) => {
   const [robots, setRobots] = useState([])
   const [searchField, setSearchField] = useState('')
 
